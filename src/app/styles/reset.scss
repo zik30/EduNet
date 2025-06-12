@@ -1,0 +1,55 @@
+/* Сброс отступов и полей */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Сброс списков */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Сброс ссылок */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Убираем обводку у кнопок и input-ов */
+button,
+input,
+textarea {
+  border: none;
+  outline: none;
+  font: inherit;
+  background: none;
+}
+
+/* Наследуем шрифты */
+body {
+  font-family: sans-serif;
+  background-color: #fff;
+  color: #000;
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+/* Изображения */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Курсор по умолчанию */
+button {
+  cursor: pointer;
+}
+
+/* Таблицы */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
