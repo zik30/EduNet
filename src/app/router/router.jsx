@@ -1,10 +1,7 @@
 import { createBrowserRouter } from 'react-router-dom'
-import { Layout } from '@shared/layouts/Layout'
+import { Layout } from '../layout/Layout'
 
-// Lazy-loaded pages
-import { lazy } from 'react'
-const MainPage = lazy(() => import('@pages/MainPage'))
-const ProfilePage = lazy(() => import('@pages/ProfilePage'))
+import { MainPage, ProfilePage } from '@pages'
 
 export const router = createBrowserRouter([
   {
